@@ -12,9 +12,9 @@ class BookList extends Component {
         style={{ color: theme.syntax, background: theme.bg }}
       >
         <ul>
-          <li style={{ background: theme.ui }}>the way of kings</li>
-          <li style={{ background: theme.ui }}>the name of the wind</li>
-          <li style={{ background: theme.ui }}>the final empire</li>
+          <li style={{ background: theme.ui }}>A Batalha do Apocalipse</li>
+          <li style={{ background: theme.ui }}>A Pirâmide Vermelha</li>
+          <li style={{ background: theme.ui }}>Mago: Aprendiz</li>
         </ul>
       </div>
     );
