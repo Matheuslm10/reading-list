@@ -2,9 +2,12 @@ import React, { useContext } from "react";
 import { BookContext } from "../contexts/BookContext";
 
 const BookDetails = ({ book, background }) => {
-  const { removeBook } = useContext(BookContext);
+  const { dispatch } = useContext(BookContext);
   return (
-    <li onClick={() => removeBook(book.id)} style={{ background: background }}>
+    <li
+      onClick={() => dispatch({ type: "REMOVE_BOOK", id: book.id })}
+      style={{ background: background }}
+    >
       <div className="title">{book.title}</div>
       <div className="author">{book.author}</div>
     </li>
