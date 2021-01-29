@@ -1,1 +1,2 @@
-Aplicação simples para adicionar informações de livros a uma lista.
+# :books: Reading List
+Simple application to create a list of books you want to read.
